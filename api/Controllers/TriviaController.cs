@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Net.Http;
+using api.Dto;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace api.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class TriviaController : Controller
     {
         // GET api/values
         [HttpGet]
@@ -17,10 +20,13 @@ namespace api.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{number}")]
+        public async Task<TriviaResponse> GetAsync(int number)
         {
-            return "value";
+           var httpClient = new HttpClient();
+           var response = await httpClient.GetAsync("http://numbersapi.com/" + number + "?json");
+           var triviaResult = await response.Content.ReadAsStringAsync();
+           return JsonConvert.DeserializeObject<TriviaResponse>(triviaResult);
         }
 
         // POST api/values

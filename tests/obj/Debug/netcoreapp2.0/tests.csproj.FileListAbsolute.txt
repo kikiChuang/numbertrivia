@@ -1,0 +1,15 @@
+E:\Better_Code\Microservices\CICD\tests\obj\Debug\netcoreapp2.0\tests.csproj.CoreCompileInputs.cache
+E:\Better_Code\Microservices\CICD\tests\obj\Debug\netcoreapp2.0\tests.AssemblyInfoInputs.cache
+E:\Better_Code\Microservices\CICD\tests\obj\Debug\netcoreapp2.0\tests.AssemblyInfo.cs
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\tests.deps.json
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\tests.runtimeconfig.json
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\tests.runtimeconfig.dev.json
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\tests.dll
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\tests.pdb
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\api.dll
+E:\Better_Code\Microservices\CICD\tests\bin\Debug\netcoreapp2.0\api.pdb
+E:\Better_Code\Microservices\CICD\tests\obj\Debug\netcoreapp2.0\tests.dll
+E:\Better_Code\Microservices\CICD\tests\obj\Debug\netcoreapp2.0\tests.pdb
